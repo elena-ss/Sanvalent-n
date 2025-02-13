@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-valentines-day-red-hearts-background-picture-image_1293296.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #d6336c;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Mensaje romántico */
+.message {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message h2 {
+    font-size: 2rem;
+    color: #d6336c;
+}
+
+.message p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Razones por las que te amo */
+.reasons {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reasons h2 {
+    font-size: 2rem;
+    color: #d6336c;
+}
+
+.reasons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reasons li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffe6ee;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
